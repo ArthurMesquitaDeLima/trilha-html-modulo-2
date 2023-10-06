@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
 }
+
 body {
     background-color: #f1f1f1;
     display: flex;
@@ -11,28 +12,73 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #2a464f;
 }
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
+div {
+    padding: 0 15px;
+}
+
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #ADD8E6;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    display: flex;
+    background-color: #32cdc0;
+    gap: 25px;
     min-height: 150px;
+    color: #200707;
 }
+
+.header img {
+    max-height: 150px;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+button {
+    background-color: #8dd790; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #32cdc0;
+    color: #ddd;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #32cdc0;
     min-height: 150px;
 }
